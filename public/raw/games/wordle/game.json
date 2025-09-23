@@ -1,0 +1,5 @@
+{
+  "categories": "puzzle,wordle,words,smart,office,class,thinking,think",
+  "description": "Guess the WORDLE in 6 attempts. Each guess must be a valid 5 letter word. Hit the Enter button to submit an attempt.",
+  "name": "Wordle"
+}
