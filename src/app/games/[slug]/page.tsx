@@ -24,20 +24,20 @@ export async function generateStaticParams() {
 }
 
 async function getGameData(slug: string) {
-    
+
     const gameDir = path.join(process.cwd(), "public/raw/games", slug);
     const filePath = path.join(gameDir, "game.json");
     const fileContents = fs.readFileSync(filePath, "utf-8");
     return JSON.parse(fileContents);
 }
 
-export default async function GamePage({ params }: pageParams) {
-    const resolvedParams = await params
-    const game = await getGameData(resolvedParams.slug);
+export default async function GamePage({ params }: { params: { slug: string } })
+{
+const game = await getGameData(params.slug);
 
     return (
         <div className="p-5">
-            <GameFrame params={resolvedParams} game={game}/>
+            <GameFrame params={params} game={game} />
             <p>{game.description}</p>
         </div>
     );
