@@ -1,18 +1,19 @@
+
 import fs from "fs";
 import path from "path";
 import GameFrame from "@/lib/games/frames/gameFrame";
 
-type pageParams = {
+type PageProps = {
     params: {
-        slug: string
-    }
-}
+        slug: string;
+    };
+};
 
 type game = {
-    name: string,
-    categories: string
-    description: string
-}
+    name: string;
+    categories: string;
+    description: string;
+};
 
 export async function generateStaticParams() {
     const gamesDir = path.join(process.cwd(), "public/raw/games");
@@ -31,10 +32,8 @@ async function getGameData(slug: string) {
     return JSON.parse(fileContents);
 }
 
-export default async function GamePage({ params }: { params: { slug: string } })
-{
-const game = await getGameData(params.slug);
-
+export default async function GamePage({ params }: PageProps) {
+    const game = await getGameData(params.slug);
     return (
         <div className="p-5">
             <GameFrame params={params} game={game} />
