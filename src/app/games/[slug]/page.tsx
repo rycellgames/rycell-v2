@@ -34,7 +34,6 @@ async function getGameData(slug: string) {
 }
 
 export default async function GamePage({ params }: PageProps) {
-    await params;
     const game = await getGameData(params.slug);
     return (
         <div className="p-5">
