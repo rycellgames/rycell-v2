@@ -20,7 +20,10 @@ type params = {
 
 export async function generateStaticParams() {
     const gamesDir = path.join(process.cwd(), "public/raw/games");
-    const folders = fs.readdirSync(gamesDir);
+    const folders = fs.readdirSync(gamesDir).filter((folder) => {
+        const fullPath = path.join(gamesDir, folder);
+        return fs.statSync(fullPath).isDirectory();
+    }); // so we don't get files
 
     return folders.map((folder) => ({
         slug: folder,
