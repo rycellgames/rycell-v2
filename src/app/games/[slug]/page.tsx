@@ -5,9 +5,9 @@ import GameFrame from "@/lib/games/frames/gameFrame";
 import { AArrowUp } from "lucide-react";
 
 type PageProps = {
-    params: {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 };
 
 type game = {
@@ -34,7 +34,8 @@ async function getGameData(slug: string) {
 }
 
 export default async function GamePage({ params }: PageProps) {
-    const game = await getGameData(params.slug);
+    const { slug } = await params;
+    const game = await getGameData(slug);
     return (
         <div className="p-5">
             <GameFrame game={game} />
