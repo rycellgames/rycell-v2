@@ -1,5 +1,7 @@
 {
-  "categories": "arcade",
-  "description": "Google Pac-Man on Chromebook offers nostalgic fun, combining classic gaming with modern accessibility.",
-  "name": "Pacman"
+  "categories": [
+    "arcade"
+  ],
+  "name": "Pacman",
+  "description": "Google Pac-Man on Chromebook offers nostalgic fun, combining classic gaming with modern accessibility."
 }

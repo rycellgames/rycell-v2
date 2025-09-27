@@ -8,7 +8,9 @@
   --color-main-800: #1b1b1b;
 }
 
-
+body {
+  font-family: "Geist", sans-serif;
+}
 
 @theme inline {
   --color-main-50: var(--color-gray-50);

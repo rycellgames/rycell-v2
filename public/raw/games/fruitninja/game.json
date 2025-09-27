@@ -1,5 +1,10 @@
 {
-  "categories": "action,arcade,fruit,ninja",
-  "description": "Choose your blade, unleash your inner ninja! Slice fruit, don't slice bombs – that's all you need to know to get started with addictive Fruit Ninja action!",
-  "name": "Fruit Ninja"
+  "categories": [
+    "action",
+    "arcade",
+    "fruit",
+    "ninja"
+  ],
+  "name": "Fruit Ninja",
+  "description": "Choose your blade, unleash your inner ninja! Slice fruit, don't slice bombs – that's all you need to know to get started with addictive Fruit Ninja action!"
 }

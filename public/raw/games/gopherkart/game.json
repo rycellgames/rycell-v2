@@ -1,5 +1,8 @@
 {
-  "categories": "vehicles,arcade",
-  "description": "Gopher Kart Unblocked is an terrific Driving & Racing browser game.",
-  "name": "Gopher Kart"
+  "categories": [
+    "vehicles",
+    "arcade"
+  ],
+  "name": "Gopher Kart",
+  "description": "Gopher Kart Unblocked is an terrific Driving & Racing browser game."
 }

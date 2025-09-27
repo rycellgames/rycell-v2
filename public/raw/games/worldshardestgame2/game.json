@@ -1,5 +1,7 @@
 {
-  "categories": "action",
-  "description": "Use the arrow keys to move the red square through the maze of balls to the end zone. You have to avoid the blue balls while collecting all the yellow balls.",
-  "name": "Worlds Hardest Game 2"
+  "categories": [
+    "action"
+  ],
+  "name": "Worlds Hardest Game 2",
+  "description": "Use the arrow keys to move the red square through the maze of balls to the end zone. You have to avoid the blue balls while collecting all the yellow balls."
 }

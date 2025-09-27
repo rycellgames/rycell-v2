@@ -1,5 +1,10 @@
 {
-  "categories": "slope,arcade,action,endless",
-  "description": "Slope 2 is an addictive endless-running game set in a futuristic space where you control an auto-running ball as it travels down a 3D course.",
-  "name": "Slope 2"
+  "categories": [
+    "slope",
+    "arcade",
+    "action",
+    "endless"
+  ],
+  "name": "Slope 2",
+  "description": "Slope 2 is an addictive endless-running game set in a futuristic space where you control an auto-running ball as it travels down a 3D course."
 }

@@ -1,5 +1,7 @@
 {
-  "categories": "puzzle",
-  "description": "Connect the map in this road building puzzle game. Ten levels of increasing difficulty, two map styles, and a whole bunch of road blocks.",
-  "name": "Roadblocks"
+  "categories": [
+    "puzzle"
+  ],
+  "name": "Roadblocks",
+  "description": "Connect the map in this road building puzzle game. Ten levels of increasing difficulty, two map styles, and a whole bunch of road blocks."
 }

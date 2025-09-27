@@ -1,5 +1,12 @@
 {
-  "categories": "puzzle,road,cross,crossy,funny",
-  "description": "Crossy Road is the 8-bit endless arcade hopper that started it all. Collect custom characters and navigate freeways, railroads, rivers and much more.",
-  "name": "Crossy Road"
+  "categories": [
+    "puzzle",
+    "road",
+    "cross",
+    "crossy",
+    "funny",
+    "endless"
+  ],
+  "name": "Crossy Road",
+  "description": "Crossy Road is the 8-bit endless arcade hopper that started it all. Collect custom characters and navigate freeways, railroads, rivers and much more."
 }

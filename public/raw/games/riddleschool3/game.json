@@ -1,5 +1,7 @@
 {
-  "categories": "adventure",
-  "description": "In Riddle School 3, your mission is to help Phil escape the classroom and eventually the school.",
-  "name": "Riddle School 3"
+  "categories": [
+    "adventure"
+  ],
+  "name": "Riddle School 3",
+  "description": "In Riddle School 3, your mission is to help Phil escape the classroom and eventually the school."
 }

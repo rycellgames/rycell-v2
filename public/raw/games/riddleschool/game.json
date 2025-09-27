@@ -1,5 +1,7 @@
 {
-  "categories": "adventure",
-  "description": "Riddle School is a point-and-click escape game developed by JonBro.",
-  "name": "Riddle School"
+  "categories": [
+    "adventure"
+  ],
+  "name": "Riddle School",
+  "description": "Riddle School is a point-and-click escape game developed by JonBro."
 }

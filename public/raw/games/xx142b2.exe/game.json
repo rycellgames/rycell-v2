@@ -1,5 +1,8 @@
 {
-  "categories": "action,arcade",
-  "description": "You are an AI weaponized virus built to infiltrate the alien network and deactivate all power generators and weapon systems.",
-  "name": "xx142b2.exe"
+  "categories": [
+    "action",
+    "arcade"
+  ],
+  "name": "xx142b2.exe",
+  "description": "You are an AI weaponized virus built to infiltrate the alien network and deactivate all power generators and weapon systems."
 }

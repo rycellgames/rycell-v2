@@ -1,5 +1,7 @@
 {
-  "categories": "puzzle",
-  "description": "Work your brain with this online Connect 3. Fun & challenging for kids & adults, play against a friend or the computer.",
-  "name": "Connect 3"
+  "categories": [
+    "puzzle"
+  ],
+  "name": "Connect 3",
+  "description": "Work your brain with this online Connect 3. Fun & challenging for kids & adults, play against a friend or the computer."
 }

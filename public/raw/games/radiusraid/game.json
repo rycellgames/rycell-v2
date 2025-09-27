@@ -1,5 +1,8 @@
 {
-  "categories": "arcade,action",
-  "description": "Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you.",
-  "name": "Radius Raid"
+  "categories": [
+    "arcade",
+    "action"
+  ],
+  "name": "Radius Raid",
+  "description": "Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you."
 }

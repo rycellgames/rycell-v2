@@ -1,5 +1,7 @@
 {
-  "categories": "vehicles",
-  "description": "",
-  "name": "Moto X3M2"
+  "categories": [
+    "vehicles"
+  ],
+  "name": "Moto X3M2",
+  "description": ""
 }

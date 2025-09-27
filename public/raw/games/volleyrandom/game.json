@@ -1,5 +1,9 @@
 {
-  "categories": "action,sports,arcade",
-  "description": "Volley Random is a fun two-player sports volleyball game where the simple controls meet chaotic and wacky physics.",
-  "name": "Volley Random"
+  "categories": [
+    "action",
+    "sports",
+    "arcade"
+  ],
+  "name": "Volley Random",
+  "description": "Volley Random is a fun two-player sports volleyball game where the simple controls meet chaotic and wacky physics."
 }

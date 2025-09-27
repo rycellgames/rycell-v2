@@ -1,5 +1,8 @@
 {
-  "categories": "arcade,adventure",
-  "description": "Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse.",
-  "name": "The Chromain Incident"
+  "categories": [
+    "arcade",
+    "adventure"
+  ],
+  "name": "The Chromain Incident",
+  "description": "Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse."
 }

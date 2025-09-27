@@ -1,5 +1,8 @@
 {
-  "categories": "arcade,action",
-  "description": "Bad Ice-Cream 2 is a 2-player puzzle game developed by Nitrome. Choose a flavor, and add fruit to your ice cream!",
-  "name": "Bad Ice Cream 2"
+  "categories": [
+    "arcade",
+    "action"
+  ],
+  "name": "Bad Ice Cream 2",
+  "description": "Bad Ice-Cream 2 is a 2-player puzzle game developed by Nitrome. Choose a flavor, and add fruit to your ice cream!"
 }

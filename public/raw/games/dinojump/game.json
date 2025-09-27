@@ -1,5 +1,8 @@
 {
-  "categories": "arcade,action",
-  "description": "Dino Jump  - a replica of the hidden game from Chrome offline mode. Press Space to start the game online and jump your Dino, use down arrow (↓) to duck.",
-  "name": "Dino Jump"
+  "categories": [
+    "arcade",
+    "action"
+  ],
+  "name": "Dino Jump",
+  "description": "Dino Jump  - a replica of the hidden game from Chrome offline mode. Press Space to start the game online and jump your Dino, use down arrow (↓) to duck."
 }

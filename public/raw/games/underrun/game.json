@@ -1,5 +1,9 @@
 {
-  "categories": "action,adventure,arcade",
-  "description": "A fully working 3D twin-stick shooter game. Excellent 3D pixelated graphics, great SFX & music, and fits well with the competition theme.",
-  "name": "Underrun"
+  "categories": [
+    "action",
+    "adventure",
+    "arcade"
+  ],
+  "name": "Underrun",
+  "description": "A fully working 3D twin-stick shooter game. Excellent 3D pixelated graphics, great SFX & music, and fits well with the competition theme."
 }

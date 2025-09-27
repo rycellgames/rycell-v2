@@ -1,6 +1,6 @@
 import { getGamesList } from "@/lib/games/logic/list";
 import { GridCard, LargeCard } from "@/lib/games/cards/gridCard";
-import popular from "./popular";
+import popular from "../popular";
 
 const gamesList = getGamesList()
 
@@ -34,8 +34,8 @@ export default function Home() {
 
   return (
     <div className="w-full p-5">
+      <title>Games | Rycell Games</title>
       <div className="flex flex-col w-full gap-5">
-        {/* Popular Section */}
         <div className="grid grid-cols-4 not-md:grid-cols-1 gap-5 overflow-hidden not-md:grid-rows-1">
           {
             popular.map((info, index) => {

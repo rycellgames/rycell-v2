@@ -6,28 +6,20 @@ function crawlAndCompile(dir) {
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
             crawlAndCompile(fullPath);
-        } else if (entry.isFile() && entry.name === 'categories.txt') {
+        } else if (entry.isFile() && entry.name === 'game.json') {
             const folder = dir;
-            const files = ['categories.txt', 'description.txt', 'name.txt'];
-            let data = {};
-            files.forEach(file => {
-                const filePath = path.join(folder, file);
-                if (fs.existsSync(filePath)) {
-                    const key = file.replace('.txt', '');
-                    data[key] = fs.readFileSync(filePath, 'utf8').trim();
-                }
-            });
             const jsonPath = path.join(folder, 'game.json');
+            const json = JSON.parse(fs.readFileSync(path.join(folder, 'game.json')))
+
+            const data = {
+                categories: json.categories.split(','),
+                name: json.name,
+                description: json.description
+            }
+
             fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
-            files.forEach(file => {
-                const filePath = path.join(folder, file);
-                if (fs.existsSync(filePath)) {
-                    fs.unlinkSync(filePath);
-                }
-            });
         }
     });
 }
 
-// Start crawling from the current directory
 crawlAndCompile(__dirname);

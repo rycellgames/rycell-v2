@@ -1,5 +1,7 @@
 {
-  "categories": "action",
-  "description": "Snow Rider 3D: Race down snowy hills, dodge obstacles, collect gifts to unlock cool sleds, and rack up stars in this thrilling first‑person winter adventure!",
-  "name": "Snow Rider 3D"
+  "categories": [
+    "action"
+  ],
+  "name": "Snow Rider 3D",
+  "description": "Snow Rider 3D: Race down snowy hills, dodge obstacles, collect gifts to unlock cool sleds, and rack up stars in this thrilling first‑person winter adventure!"
 }

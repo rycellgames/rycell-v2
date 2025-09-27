@@ -1,5 +1,7 @@
 {
-  "categories": "puzzle",
-  "description": "Konnekt is a simple Real-Time-Strategy game. A virus is spreading in your system and threatening to take it offline.",
-  "name": "Konnekt"
+  "categories": [
+    "puzzle"
+  ],
+  "name": "Konnekt",
+  "description": "Konnekt is a simple Real-Time-Strategy game. A virus is spreading in your system and threatening to take it offline."
 }

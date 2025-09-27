@@ -1,5 +1,7 @@
 {
-  "categories": "adventure",
-  "description": "Help Phil to escape the school in this sequel of Riddle School!",
-  "name": "Riddle School 2"
+  "categories": [
+    "adventure"
+  ],
+  "name": "Riddle School 2",
+  "description": "Help Phil to escape the school in this sequel of Riddle School!"
 }

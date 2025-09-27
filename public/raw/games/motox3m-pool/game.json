@@ -1,5 +1,10 @@
 {
-  "categories": "vehicles,moto,x3m,arcade",
-  "description": "Grab your bike, master the jumps and pull off sweet flips in Moto X3M Pool Party. Race to the finish line and get all 3 stars.",
-  "name": "Moto X3M Pool"
+  "categories": [
+    "vehicles",
+    "moto",
+    "x3m",
+    "arcade"
+  ],
+  "name": "Moto X3M Pool",
+  "description": "Grab your bike, master the jumps and pull off sweet flips in Moto X3M Pool Party. Race to the finish line and get all 3 stars."
 }

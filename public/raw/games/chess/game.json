@@ -1,5 +1,7 @@
 {
-  "categories": "puzzle",
-  "description": "Work your brain with this online version of the classic game Chess. Fun & challenging for kids & adults, play against a friend or the computer.",
-  "name": "Chess"
+  "categories": [
+    "puzzle"
+  ],
+  "name": "Chess",
+  "description": "Work your brain with this online version of the classic game Chess. Fun & challenging for kids & adults, play against a friend or the computer."
 }

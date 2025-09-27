@@ -1,5 +1,8 @@
 {
-  "categories": "action,adventure",
-  "description": "Vex 7 is a dynamic platformer game that requires players to parkour around the map. Avoid spikes, fire, and electricity in order to make it to the end.",
-  "name": "Vex 7"
+  "categories": [
+    "action",
+    "adventure"
+  ],
+  "name": "Vex 7",
+  "description": "Vex 7 is a dynamic platformer game that requires players to parkour around the map. Avoid spikes, fire, and electricity in order to make it to the end."
 }

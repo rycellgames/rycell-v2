@@ -1,5 +1,8 @@
 {
-  "categories": "action,adventure",
-  "description": "Vex 5 is an exhilarating and challenging online platform game that takes the player on a thrilling journey through a series of obstacle courses.",
-  "name": "Vex 5"
+  "categories": [
+    "action",
+    "adventure"
+  ],
+  "name": "Vex 5",
+  "description": "Vex 5 is an exhilarating and challenging online platform game that takes the player on a thrilling journey through a series of obstacle courses."
 }

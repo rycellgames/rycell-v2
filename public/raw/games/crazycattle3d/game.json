@@ -1,5 +1,13 @@
 {
-  "categories": "arcade,action,sheep,cattle,3d,competition,grass",
-  "description": "Crazy Cattle 3D is an independently developed battle royale game that puts players in control of explosive sheep competing for survival across varied terrain.",
-  "name": "Crazy Cattle 3D"
+  "categories": [
+    "arcade",
+    "action",
+    "sheep",
+    "cattle",
+    "3d",
+    "competition",
+    "grass"
+  ],
+  "name": "Crazy Cattle 3D",
+  "description": "Crazy Cattle 3D is an independently developed battle royale game that puts players in control of explosive sheep competing for survival across varied terrain."
 }

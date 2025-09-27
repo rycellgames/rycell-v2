@@ -1,5 +1,9 @@
 {
-  "categories": "run,endless,adventure",
-  "description": "Run 3 is a classic where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer.",
-  "name": "Run 3"
+  "categories": [
+    "run",
+    "endless",
+    "adventure"
+  ],
+  "name": "Run 3",
+  "description": "Run 3 is a classic where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer."
 }

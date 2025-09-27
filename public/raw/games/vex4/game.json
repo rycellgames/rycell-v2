@@ -1,5 +1,8 @@
 {
-  "categories": "action,adventure",
-  "description": "Vex 4 is an exhilarating platformer game with challenging levels and precise controls.",
-  "name": "Vex 4"
+  "categories": [
+    "action",
+    "adventure"
+  ],
+  "name": "Vex 4",
+  "description": "Vex 4 is an exhilarating platformer game with challenging levels and precise controls."
 }
